@@ -2,6 +2,8 @@ CREATE TABLE t_nse_nfo_futures
 (
 	tradeID 	INT AUTO_INCREMENT,
     Symbol  	VARCHAR(150) ,
+    Underlying	VARCHAR(100),
+    Expiry		VARCHAR(25),
     tradeDate 	DATETIME NOT NULL,
     openPrice	DOUBLE,
     closePrice	DOUBLE,
